@@ -1,0 +1,3 @@
+import React from 'react';
+
+export default function ContactForm() { return (<section className='p-8'><h2 className='text-2xl font-bold mb-4'>Kontakt</h2><form className='flex flex-col space-y-4'><input type='text' placeholder='Name' className='p-2 border' /><input type='email' placeholder='Email' className='p-2 border' /><textarea placeholder='Nachricht' className='p-2 border'></textarea><button type='submit' className='bg-black text-white p-2'>Senden</button></form></section>); }
